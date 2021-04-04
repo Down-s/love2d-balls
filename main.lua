@@ -19,7 +19,7 @@ end
 
 function love.draw()
     for i, ball in ipairs(tBalls) do
-        if (i == 25) then
+        if (i == BallCount) then
             local mx, my = love.mouse.getPosition()
             ball:SetPos(mx, my)
         end
