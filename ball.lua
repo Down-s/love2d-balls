@@ -1,6 +1,6 @@
 local BALL = {
     x = 0,
-    y = 0
+    y = 0,
     radius = 32,
 }
 BALL.__index = BALL
